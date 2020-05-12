@@ -29,17 +29,8 @@ $s-device: 480px;
   }
 }
 
-p {
-  color: blue;
-  @include d(m) {
-    color: pink;
-  }
-  @include d(s) {
-    color: aqua;
-  }
-}
+// Função do grid
 
-// Função do Grid
 @function grid($col, $offset: false) {
   $width: $col / $cols * 100 + "%";
   $result: calc(#{$width} - #{$gutter});
@@ -51,13 +42,15 @@ p {
 }
 
 // Gera as classes de grid
+
 @for $i from 1 through $cols {
   .grid-#{$i} {
     width: grid($i);
   }
 }
 
-//Mixin estrutura do grid
+// Mixin estrutura do grid
+
 @mixin grid-structure {
   float: left;
   min-height: 1px;
@@ -76,6 +69,7 @@ p {
 }
 
 // Gera as classes de offset
+
 @for $i from 1 through $cols {
   .offset-#{$i} {
     margin-left: grid($i, offset);
@@ -90,6 +84,7 @@ p {
 }
 
 // Mixin de clearfix
+
 @mixin clearfix {
   &::after,
   &::before {
@@ -132,25 +127,3 @@ p {
 .row {
   @include row;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
