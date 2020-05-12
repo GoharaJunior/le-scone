@@ -3,11 +3,16 @@ $bege-claro: #edece4;
 $bege-medio: #cbc6b9;
 $bege-escuro: #988c77;
 $cinza: #2a2426;
-$verde: #988c77;
+$verde: #1ab912;
 
 // Fontes
 $font-1: 'PT Mono', monospace;
 $font-2: 'Aref Ruqaa', serif;
+
+div {
+  font-family: 'Aref Ruqaa', serif;
+  font-family: 'PT Mono', monospace;
+}
 
 @function em($pixel, $context: 16) {
   @return $pixel / $context + em;
