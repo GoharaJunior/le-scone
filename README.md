@@ -2,7 +2,7 @@
     <img width="130px" alt="Bootstrap 4 - Icon" src="https://user-images.githubusercontent.com/57417305/81760730-69438e00-949e-11ea-97a8-9f84ed0a171f.png" />
 </h1>
 <h1 align="center">
-    <img width="95px" alt="Bootstrap 4 - Icon" src="https://user-images.githubusercontent.com/57417305/81761336-1074f500-94a0-11ea-9510-c0d89195c95a.png" />
+    <img width="95px" alt="Bootstrap 4 - Icon" src="https://user-images.githubusercontent.com/57417305/81761615-bf193580-94a0-11ea-8275-31d16ade9ef4.png" />
 </h1>
 
 <h1 align="center">
